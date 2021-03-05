@@ -20,7 +20,7 @@ namespace Actividad
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 frm2 = new Form2();
-
+            this.Hide();
             frm2.Show();
         }
     }
